@@ -54,13 +54,13 @@ Magic(); */
 
 console.log(Magic()); */
 
-  var p = document.querySelector("p");
+  /* var p = document.querySelector("p");
  var rougit = function () {
      p.classList.toggle('red')
  }
  p.addEventListener('click',rougit); 
-
- /* let sub = document.querySelector(".submit");
+ */
+  /* let sub = document.querySelector(".submit");
 
  sub.style.backgroundColor = "Black";
 
@@ -68,8 +68,8 @@ console.log(Magic()); */
 
  sub.style.fontSize = "5em";
 
- sub.style.padding = "1.5"; */
+ sub.style.padding = "1.5";  */
 
- /* let sub = document.querySelector("input[type=submit]");
+  let sub = document.querySelector("input[type=submit]");
 
- sub.classList.add("submit"); */
+ sub.classList.add("submit"); 
