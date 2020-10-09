@@ -22,7 +22,7 @@ console.log(button);
 //const header = document.querySelector('#list #submit');
 
 
-const header = document.querySelector('#list');
+//const header = document.querySelector('#list');
 //const htem = document.getElementsByClassName('#list');
 
 //console.log(header.children);
@@ -33,9 +33,43 @@ const header = document.querySelector('#list');
 
 //la difference entre getElement et querrySelector est que avec le query selector on utilise les sélecteurs css
 
-console.log(typeof "zaza"); //
+/* console.log(typeof "zaza"); // retourne String
 console.log(typeof 12);  // retourne  number
 console.log(typeof { name: "Alex", age: 24});  //retourne  objet
 console.log(typeof [1, 2, 3]);   //un tableau est  objet
 console.log(typeof undefined); // le type  undefined
 console.log(typeof null);  //null  un objet//
+ */
+
+ /* function Magic(){
+     console.log("hello");
+     console.log("Function");
+ }
+
+Magic(); */
+
+/* function Magic(){
+    return "Hello world";
+}
+
+console.log(Magic()); */
+
+  var p = document.querySelector("p");
+ var rougit = function () {
+     p.classList.toggle('red')
+ }
+ p.addEventListener('click',rougit); 
+
+ /* let sub = document.querySelector(".submit");
+
+ sub.style.backgroundColor = "Black";
+
+ sub.style.color = "green";
+
+ sub.style.fontSize = "5em";
+
+ sub.style.padding = "1.5"; */
+
+ /* let sub = document.querySelector("input[type=submit]");
+
+ sub.classList.add("submit"); */
