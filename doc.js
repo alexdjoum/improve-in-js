@@ -70,6 +70,70 @@ console.log(Magic()); */
 
  sub.style.padding = "1.5";  */
 
-  let sub = document.querySelector("input[type=submit]");
+ // let sub = document.querySelector("input[type=submit]");
 
- sub.classList.add("submit"); 
+ //sub.classList.add("submit");
+ 
+ const arr = [1,2,3,4];
+ //console.log(arr.push());
+ /* console.log(arr.push("a"));
+ console.log(arr);
+
+ console.log(arr.pop());
+ console.log(arr);
+
+ console.log(arr.unshift(1));
+ console.log(arr);
+
+ console.log(arr.shift());
+ console.log(arr); */
+
+ //const obj = {id:1, name:"daily"};
+ //console.log(obj.name);/* 
+ //console.log("name" in obj);
+ /* let ans=1;
+
+ switch(ans){
+     case 1:
+         console.log("you have select javascript");
+         break;
+     case 2:
+         console.log("you have select pyton");
+         break;
+     case 3:
+         console.log("you have select ASP.NET");
+         break;
+     default:
+         console.log("sorry, you have select wrong answer");
+         break;
+
+ } */
+
+ /* for(let count=0; count<5; count++)console.log(count); */
+
+/*  let ary=[1,2,3,4,5];
+ let str="kammegne"
+
+
+ for (let value of str) {
+     console.log(value);
+ } */
+
+ /* const user = {
+     name: "Daily",
+     subs: 4000
+ } */
+
+ let name="Daily";
+ let subs=4000;
+
+ function show(){
+     console.log(`${name} you have ${subs} subscribers`);
+ }
+
+ function Make(){
+     console.log(`thanks you so Much ${subs} Subscribers`);
+ }
+
+ show();
+ Make();
