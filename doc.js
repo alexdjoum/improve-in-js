@@ -122,18 +122,26 @@ console.log(Magic()); */
  /* const user = {
      name: "Daily",
      subs: 4000
- } */
-
- let name="Daily";
- let subs=4000;
-
+ } *//* 
+const user ={
+  name:"Daily",
+  subs:4000
+}
  function show(){
-     console.log(`${name} you have ${subs} subscribers`);
+     console.log(`${user.name} you have ${user.subs} subscribers`);
  }
 
  function Make(){
-     console.log(`thanks you so Much ${subs} Subscribers`);
+     console.log(`thanks you so Much ${user.subs} Subscribers`);
  }
+ */
+ //show();
+ //Make();
 
- show();
- Make();
+ var child = {
+     nom: 'djoum',
+     present: function () {
+         console.log(this.nom)
+     }
+ }
+ child.present();
