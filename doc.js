@@ -138,10 +138,27 @@ const user ={
  //show();
  //Make();
 
- var child = {
+ /* var child = {
      nom: 'djoum',
      present: function () {
          console.log(this.nom)
      }
  }
- child.present();
+ child.present(); */
+
+ var itemsContainer = document.getElementById('items-list');
+ var firstItem = document.querySelector('.item');
+ var items = document.querySelectorAll('.item a');
+ var itemsByName = document.getElementsByName('email');
+ var itemsByClass = document.getElementsByClassName('items');
+ var itemsByTag = document.getElementsByTagName('li');
+
+ 
+
+ console.log(itemsContainer);
+ console.log(firstItem);
+ console.log(items);
+ console.log(itemsByName);
+ console.log(itemsByClass);
+ console.log(itemsByTag);
+
