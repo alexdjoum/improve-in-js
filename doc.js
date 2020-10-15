@@ -146,7 +146,7 @@ const user ={
  }
  child.present(); */
 
- var itemsContainer = document.getElementById('items-list');
+/*  var itemsContainer = document.getElementById('items-list');
  var firstItem = document.querySelector('.item');
  var items = document.querySelectorAll('.item a');
  var itemsByName = document.getElementsByName('email');
@@ -161,4 +161,27 @@ const user ={
  console.log(itemsByName);
  console.log(itemsByClass);
  console.log(itemsByTag);
+ */
 
+ class Model{
+     constructor(Mno, Mname){
+        this.Mno = Mno;
+        this.Mname = Mname;
+     }
+
+
+     show(){
+         console.log(`Model Number :${this.Mno}
+Model Name : ${this.Mname}`);
+     }
+ }
+
+
+ const obj1 = new Model(550,"BMW");
+ obj1.show();
+
+ const obj2 = new Model();
+
+
+ //console.log(obj1 instanceof Array)
+ console.log(obj1 instanceof Model);
